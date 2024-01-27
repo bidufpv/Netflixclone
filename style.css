@@ -1,0 +1,330 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins', sans-serif;  */
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+    
+}
+
+.main{
+    background-image: url(assets/images/bg5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1300px, 105vw);
+    height: 130vh;
+    position: relative;
+    /* opacity: 0.6;  */
+}
+.main .box{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7; 
+    background-color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: center;  */
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 60px;
+}
+
+nav img{
+    color: red;
+    width: 100%;
+    height: 30px; 
+    position: relative;
+    z-index: 10; 
+    
+}
+nav button {
+    position: relative;
+    z-index: 10;
+}
+.top-buttons{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-buttons{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90%;
+    color: white;
+    position: relative;
+    gap: 15px;
+    text-align: center;
+    padding: 0 20px;
+    
+}
+.content> :nth-child(1){
+    font-weight: bolder; 
+    font-size: 45px;  
+    text-align: center;
+
+}
+.content> :nth-child(2){
+   font-weight: 100;
+   font-size: 25px;
+   text-align: center;
+}
+.content> :nth-child(3){
+   font-weight: lighter;
+   font-size: 20px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.separation{
+    position: relative;
+    background-color: rgba(147, 142, 142, 0.911);
+    height: 8px;
+    z-index: 10;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 700;
+}
+select{
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+}
+option{
+    background-color: black;
+}
+.btn-red-sm:hover{
+    background-color: rgba(236, 9, 9, 0.968);
+    border: 2px solid rgba(210, 12, 12, 0.829);
+}
+
+.btn-red-sm{
+   background-color: red;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   border-radius: 5px;
+   border: 2px solid red;
+   padding: 6px 15px;
+ 
+}
+.btn-red:hover{
+    background-color: rgba(236, 9, 9, 0.968);
+
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 2px solid red;
+    padding: 15px 40px;
+    font-size: larger;
+    cursor: pointer;
+}
+.main input{
+   padding: 18px 80px;
+   border: 1.5px solid rgb(28, 89, 2);
+   border-radius: 2px;
+   color: white;
+   background-color: transparent;
+}
+
+.first{
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    height: 40vw;
+    margin: auto;
+    color: white;
+    gap: 80px;
+    font-size: x-large;
+    font-weight: 900;
+
+}
+.secImg{
+    position: relative;
+}
+.secImg img{
+    width: 40vw;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.secImg video{
+    height: 200px;
+    width: 40vw;
+    display: flex;
+    top: 0;
+    position: absolute;
+    padding: 80px 10px;
+    justify-content: center;
+    align-items: center;  
+    overflow: hidden; 
+}
+.text> :nth-child(1){
+    font-size: 40px;
+}
+.faq h1{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    top: 0;
+    size: 0cap;
+    padding: 50px 20px;
+    font-size: 55px;
+    font-weight: bolder;
+}
+.faq{
+    color: white;
+    background-color: black;
+    
+}
+.faqbox:hover{
+    background-color: rgba(112, 111, 111, 0.961);
+}
+.faqbox svg{
+    filter: invert(1);
+}
+
+.faqbox{
+    transition: all 1s ease-out;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    max-width: 60vw;
+    margin: 15px auto;
+    display: flex;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    padding: 20px;
+    cursor: pointer;
+}
+.faq .faqbox svg{
+    color: white;
+    justify-content: center;
+}
+
+.last{
+    padding: 30px 30px;
+     justify-content: center;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.last h3{
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lastbtn{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ebtn{
+    background-color: transparent;
+    height: 30px;
+    width: 20vw;
+    padding: 10px 20px;
+    border: 1.5px solid rgba(3, 41, 3, 0.961);
+    border-radius: 5px;
+    gap: 50px;
+    position: relative;
+    
+}
+.lastfoot{
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr 0.8fr;
+    /* justify-content: space-around;  */
+    color: white;
+   
+    
+}
+.space{
+    padding: 40px;
+}
+.lastfoot a{
+    padding: 10px;
+    color: gray;
+    font-family: 'Lato', sans-serif;
+}
+
+.questions{
+    position: relative;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    left: 55px;
+    top: 20px;
+}
+.footer-item{
+    position: relative;
+    left: 60px;
+    top: 20px;
+    padding: 40px;
+    font: inherit;
+    font-size: 15px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+}
+.last-buttons{
+    position: relative;
+    left: 95px;
+    top: 20px;
+}
+.btnn{
+    background-color: transparent;
+    font-size: small;
+    font-weight: 100;
+    padding: 5px 10px;
+    border: 1.5px solid grey;
+    border-radius: 5px;
+    
+}
+.netflix{
+    color: white;
+    position: relative;
+    top: 20px;
+    padding: 40px 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
